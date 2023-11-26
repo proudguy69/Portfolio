@@ -10,11 +10,19 @@
     </div>
     <div class="hero-about">
         <h2 class="about-title">About me</h2>
-        <p class="about-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Massa eget egestas purus viverra accumsan in. Senectus et netus et malesuada fames ac. Cursus sit amet dictum sit amet justo.</p>
+        <p class="about-description">
+            Hi I'm Mystic, you can call me Kai as that's my online alias. I have been programming for the better part of 6 years now, 
+            ever since I was 13, I am 19 as of November 1st, and I have a pet cat named oliver. For more information about my
+             programming skills view the section below where you can select one of my languages and see what I have been doing with 
+             it and for how long. If you'd like to reach out and contact me you can view this page 
+             <a href="{{url_for('contactPage')}}" class="link">Here</a> or press the contact button in the upper right hand corner of this page. 
+        </p>
     </div>
 </div>
 
 <div class="main-body">
+
+
     <div class="body-languages">
         <h2 class="languages-title">My programming languages</h2>
         <h3 class="languages-hint">(Click an icon to read about my experiance in a certain language)</h3>
@@ -26,17 +34,23 @@
             <img class="languages-icon" id="icon_js" src="../static/images/js.png">
         </div>
 
+
         <div class="languages-description">
             <div class="l-description-title">
                 <img class="title-icon fade_in" id="title_icon" src="../static/images/python.png">
                 <h3 class="title-title fade_in" id="title_title" >Python</h3>
             </div>
             <div class="l-description-description fade_in" id="description_description">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Massa eget egestas purus viverra accumsan in. Senectus et netus et malesuada fames ac. Cursus sit amet dictum sit amet justo
+                I have been Programming in python for about 4 years now. I consider myself to be very proficient in this language, in fact, 
+                I think it's my most proficient Language! I mainly use it to create discord bots but I have also used it to create backends  
+                for websites such as this, and for integration between multiple apps, for example, connecting a discord bot to roblox. 
+                Python is one of my most favorite languages to use because of how fast and easy it is to write and deploy something
+
             </div>
         </div>
     </div>
 
 </div>
+
 
 {%endblock root%}

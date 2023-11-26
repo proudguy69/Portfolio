@@ -10,4 +10,8 @@ def homePage():
 def portfolioPage():
     return render_template("portfolio.html")
 
+@app.route("/contact")
+def contactPage():
+    return render_template("contact.html")
+
 app.run(debug=True)

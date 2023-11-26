@@ -45,6 +45,11 @@ h2 {
     font-size: x-large;
 }
 
+.link {
+    text-decoration: underline;
+    font-style: italic;
+}
+
 .main-body {
     display: flex;
     justify-content: center;

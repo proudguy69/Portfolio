@@ -1,0 +1,42 @@
+{% extends 'base.html'%}
+
+{%block root%}
+<link rel="stylesheet" href="../static/css/home.css">
+<script src="../static/javascript/home.js", defer></script>
+<div class="hero">
+    <div class="hero-header">
+        <img class="header-icon" src="../static/images/avatar.png">
+        <h1>&lt;<span class="haader-name">Mystics</span> Portfolio&gt;</h1>
+    </div>
+    <div class="hero-about">
+        <h2 class="about-title">About me</h2>
+        <p class="about-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Massa eget egestas purus viverra accumsan in. Senectus et netus et malesuada fames ac. Cursus sit amet dictum sit amet justo.</p>
+    </div>
+</div>
+
+<div class="main-body">
+    <div class="body-languages">
+        <h2 class="languages-title">My programming languages</h2>
+        <h3 class="languages-hint">(Click an icon to read about my experiance in a certain language)</h3>
+        <div class="languages-icons">
+            <img class="languages-icon" id="icon_python" src="../static/images/python.png">
+            <img class="languages-icon" id="icon_lua" src="../static/images/lua.png">
+            <img class="languages-icon" id="icon_html" src="../static/images/html.png">
+            <img class="languages-icon" id="icon_css" src="../static/images/css.png">
+            <img class="languages-icon" id="icon_js" src="../static/images/js.png">
+        </div>
+
+        <div class="languages-description">
+            <div class="l-description-title">
+                <img class="title-icon fade_in" id="title_icon" src="../static/images/python.png">
+                <h3 class="title-title fade_in" id="title_title" >Python</h3>
+            </div>
+            <div class="l-description-description fade_in" id="description_description">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Massa eget egestas purus viverra accumsan in. Senectus et netus et malesuada fames ac. Cursus sit amet dictum sit amet justo
+            </div>
+        </div>
+    </div>
+
+</div>
+
+{%endblock root%}

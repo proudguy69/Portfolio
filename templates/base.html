@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Meta Tags -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Mystics Portfolio</title>
+    <!-- Css Files -->
+    <link rel="stylesheet" href="/static/css/base.css">
+</head>
+<body>
+    <nav>
+        <a class="nav-element" href="{{url_for('homePage')}}">Home</a>
+        <a class="nav-element" href="{{url_for('portfolioPage')}}">Portfolio</a>
+        <a class="nav-element" href="#">Blog</a>
+        <a class="nav-element" href="#">Contact</a>
+        <img src="static/images/sun.png" class="nav-theme">
+    </nav>
+
+    {% block root %}
+    {% endblock root %}
+
+    <div class="footer">
+        
+    </div>
+
+</body>
+</html>

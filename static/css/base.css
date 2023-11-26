@@ -1,0 +1,75 @@
+
+
+
+
+:root {
+    --background_color: #04030C;
+    --primary_color: #20175E;
+    --secondary_color: #130e39;
+    --accent_color: #5542d1;
+    --text_color: #F8F7FD;
+    --font: Calibri;
+}
+
+body {
+    background-color: var(--background_color);
+    color: var(--text_color);
+    font-family: var(--font);
+    margin: 0px;
+    
+
+    -ms-overflow-style: none;  /* IE and Edge */
+    scrollbar-width: none;  /* Firefox */
+}
+
+body::-webkit-scrollbar {
+  display: none;
+}
+
+nav {
+    background-color: var(--secondary_color);
+    width: 100vw;
+    height: 5rem;
+
+    display: flex;
+    justify-content: end;
+    align-items: center;
+}
+
+a {
+    all:unset; 
+}
+
+a:hover {
+    cursor: pointer;
+    font-style: italic;
+    text-decoration: underline;
+
+
+    background-color: var(--primary_color);
+    
+}
+
+
+
+.nav-element {
+    margin-right: 1.75rem;
+    font-size: x-large;
+    padding: 0.35rem;
+    border-radius: 15px;
+}
+
+.nav-theme {
+    height: 50%;
+    margin-right: 1.75rem;
+    filter: invert(100%);
+}
+
+.nav-theme:hover {
+    cursor: pointer;
+}
+
+
+.footer{
+    height: 4rem;
+}
